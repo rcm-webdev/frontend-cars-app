@@ -8,7 +8,9 @@ function Hero() {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={HeroImage} className="max-w-full rounded-lg " />
           <div>
-            <h1 className="text-5xl font-bold">The Collection</h1>
+            <h1 className="text-5xl font-cooper tracking-wide uppercase">
+              Welcome to the <span className="text-[#5d9277]">shop</span>{" "}
+            </h1>
             <p className="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
