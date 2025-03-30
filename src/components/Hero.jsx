@@ -1,4 +1,4 @@
-import HeroImage from "../../public/hero.webp";
+import HeroImage from "../assets/hero.webp";
 import FetchButton from "./FetchButton";
 
 function Hero() {
