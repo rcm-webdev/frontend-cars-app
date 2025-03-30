@@ -3,10 +3,10 @@ import FetchButton from "./FetchButton";
 
 function Hero() {
   return (
-    <div className="max-w-5xl mx-auto bg-base-200">
+    <div className="max-w-5xl mx-auto bg-base-200 overflow-x-hidden">
       <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={HeroImage} className="max-w-sm rounded-lg " />
+          <img src={HeroImage} className="max-w-full rounded-lg " />
           <div>
             <h1 className="text-5xl font-bold">The Collection</h1>
             <p className="py-6">
